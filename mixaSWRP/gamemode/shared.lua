@@ -1,7 +1,7 @@
 
 GM.Name 	= "starwarsrp"
 GM.Author 	= "Falcon"
-GM.Email 	= "swrpdeveloping@gmail.com"
+GM.Email 	= "kota.casper.gould@gmail.com"
 
 DeriveGamemode( "sandbox" )
 
