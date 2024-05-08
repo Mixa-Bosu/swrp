@@ -1,0 +1,6 @@
+"customrp"
+{
+	"base"		"sandbox"
+	"title"		"customrp"
+	"menusystem"	"1"
+}
