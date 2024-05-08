@@ -11,11 +11,11 @@ local types = {
     ["ABILITY"] = 3,
 }
 Falcon.CreateNewItem = function( name, type )
-    local niggas = "`name`, `type`, `health`, `armor`, `stamina`, `bulletprotection`, `fireprotection`, `fallprotection`, `blastprotection`, `poisonprotection`, `damage`, `firerate`, `function`, `minrarity`, `maxrarity`"
+    local robin = "`name`, `type`, `health`, `armor`, `stamina`, `bulletprotection`, `fireprotection`, `fallprotection`, `blastprotection`, `poisonprotection`, `damage`, `firerate`, `function`, `minrarity`, `maxrarity`"
 
-    local chinks = ICS(name) .. tostring(types[type]) .. ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 5"
+    local seer = ICS(name) .. tostring(types[type]) .. ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 5"
 
-    local str = "INSERT INTO Items( " .. niggas .. " ) VALUES( " .. chinks .. " )"
+    local str = "INSERT INTO Items( " .. robin .. " ) VALUES( " .. seer .. " )"
     sql.Query(str)
 
     Falcon.Items = sql.Query("SELECT * FROM Items") or {}
