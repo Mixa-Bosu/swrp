@@ -41,7 +41,7 @@ end
 
 Falcon.CreateRegiment = function( name, abbreviation, department )
     local dep = tonumber(Falcon.Departments[department].id)
-    local niggas = "`name`, `abbreviation`, `model`, `color`, `loadouts`, `description`, `department`, `hidden`, `faction`"
+    local cards = "`name`, `abbreviation`, `model`, `color`, `loadouts`, `description`, `department`, `hidden`, `faction`"
 
     local loadouts = {
         [1] = {
@@ -81,8 +81,8 @@ Falcon.CreateRegiment = function( name, abbreviation, department )
         },
     }
 
-    local chinks = ICS(name) .. ICS(abbreviation) .. ICS("models/player/Group03/male_01.mdl") .. ICS(util.TableToJSON(Color(255, 255, 255))) .. ICS(util.TableToJSON(loadouts)) ..  ICS("DESCRIPTION! : " .. name) .. ICS(dep) .. ICS(0) .. sql.SQLStr(tostring(1))
-    local str = "INSERT INTO Regiments( " .. niggas .. " ) VALUES( " .. chinks .. " )"
+    local car = ICS(name) .. ICS(abbreviation) .. ICS("models/player/Group03/male_01.mdl") .. ICS(util.TableToJSON(Color(255, 255, 255))) .. ICS(util.TableToJSON(loadouts)) ..  ICS("DESCRIPTION! : " .. name) .. ICS(dep) .. ICS(0) .. sql.SQLStr(tostring(1))
+    local str = "INSERT INTO Regiments( " .. cards .. " ) VALUES( " .. car .. " )"
     sql.Query(str)
 
 
