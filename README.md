@@ -1,4 +1,4 @@
-# swrp
+# A Custom Gamemode For Garry's Mod Inspired By Star Wars
 
 ![StarWarsLogo](https://github.com/Gappy-Bosu/swrp/assets/140876191/69e8f862-8e06-4a2d-be1a-cd541088fa37)
 
