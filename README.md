@@ -3,7 +3,7 @@
 ![StarWarsLogo](https://github.com/Gappy-Bosu/swrp/assets/140876191/69e8f862-8e06-4a2d-be1a-cd541088fa37)
 
 **_A custom star-wars oriented gamemode for Garry's Mod, which features a WIP character creation system and an in-depth regiment & class creation system._**
-
+_Note; you need to change the base file's name from mixa_swrp to customrp otherwise the game wont work!!!_
 ![Blaster](https://github.com/Gappy-Bosu/swrp/assets/140876191/b0046edb-ae78-413d-87b3-fe0c1cc33759)
 Current Features:
 > **A custom HUD with unique icons!**
